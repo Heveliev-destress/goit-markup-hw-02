@@ -1,3 +1,11 @@
+.link{text-decoration: none;}
+.list{list-style: none;}
+
+img{display: block;}
+
+
+
+
 :root{
     --title-color: #212121;
 --text-color:#757575;
@@ -5,32 +13,18 @@
 .body {
 
 }
-.header {
-}
+
 
 .header-logo-first{color: #2196F3;}
 .header-logo-second {color: #000000;}
 .header-logo-first, .header-logo-second{}
 
-.header-navigation a{
-    color: #212121;
-}
+
 
 .header-navigation a:hover
-{
-color: #2196F3;
-}
-.header-navigation a:focus{
-    outline: solid 1px;
-    color:#2196F3 ;
-}
+.header-navigation a:focus
+
 .hero{
 background-color:  #2F303A;
 }
-.hero-head{
-    color: #FFFFFF;
-}
-.address a:hover
-{
-color: #2196F3;
-}
+
