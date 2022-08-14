@@ -16,6 +16,7 @@ button {  cursor: pointer;
 
 body {
     font-family: var(--primary-font);
+    color:var(--primary-text-dark-color);
 }
 .header{
     background-color: #FFFFFF;
@@ -37,7 +38,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color:var(--primary-text-dark-color);
+    
 }
 .menu-link:hover,
 .menu-link:focus
@@ -102,9 +103,8 @@ color:var(--accent-color)
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--primary-text-dark-color);}
+}
 .desc-text{
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.72;
     letter-spacing: 0.03em;
@@ -116,7 +116,7 @@ color:var(--accent-color)
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--primary-text-dark-color);}
+}
 .features-img{}
 .team{
     background-color: #F5F4FA;
@@ -127,7 +127,7 @@ color:var(--accent-color)
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-    color:var(--primary-text-dark-color);}
+}
     .team-one-persone{
         background-color: #FFFFFF;
     }
@@ -138,9 +138,8 @@ color:var(--accent-color)
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--primary-text-dark-color);}
+}
 .team-text{
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -171,7 +170,8 @@ color:var(--accent-color)
     line-height: 1.72;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);}
-.footer-email{font-weight: 400;
+.footer-email{
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.72;
     letter-spacing: 0.03em;
@@ -196,7 +196,7 @@ color:var(--accent-color)
     line-height: 1.63;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--primary-text-dark-color);
+
 
 }
 .portfolio-btn:hover,
@@ -214,10 +214,8 @@ color:var(--accent-color)
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: var(--primary-text-dark-color);
     }
 .portfolio-text{
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
