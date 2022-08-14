@@ -13,18 +13,51 @@ img{display: block;}
 .body {
 
 }
+.header{}
+.nav{}
+.logo{}
+.menu{}
+.menu-item{}
+.menu-link{
+    font-family: 'Roboto' sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 
-
-.header-logo-first{color: #2196F3;}
-.header-logo-second {color: #000000;}
-.header-logo-first, .header-logo-second{}
-
-
-
-.header-navigation a:hover
-.header-navigation a:focus
-
-.hero{
-background-color:  #2F303A;
+    color: #212121;
 }
+.menu-link:hover,
+.menu-link:focus
+{
+    color:#2196F3;
+}
+.contact{}
+.contact-phone-number{
+    font-family: 'Roboto' sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    
+    color:#757575;
+}
+.contact-email{
+    font-family: 'Roboto' sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    
+    color: #757575;
+}
+.contact-email:hover,
+.contact-email:focus,
+.contact-phone-number:hover,    
+.contact-phone-number:focus{
+color:#2196F3;
+}
+
+
+
 
