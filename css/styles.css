@@ -28,7 +28,7 @@ body {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: var(--logo-text-color);
+    color:var(--logo-text-color);
 }
 .logo-web{color:#2196F3;}
 .menu{}
@@ -38,6 +38,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+   color: var(--primary-text-dark-color);
     
 }
 .menu-link:hover,
